@@ -1,0 +1,51 @@
+.cont{
+    /* max-width: 80%; */
+    text-align: center;
+    background-color: blue;
+}
+
+p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+}
+body{
+    background-image: url('slider-image2.jpg');
+    background-color: tomato;
+}
+input,textarea{
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+}
+
+/* display: block; */
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub{
+
+        background-color: #4CAF50;
+        border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+    
+
+}
+
+/* button{
+    width: min-content;
+    text-align: right;
+} */
